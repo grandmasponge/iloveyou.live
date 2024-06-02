@@ -21,8 +21,10 @@ function PngToAscii() {
 
 }
 
+const frames = PngToAscii();
+
 function pipeStream(stream) {
-    let frames = PngToAscii();
+    
     let i = 0;
 
     return setInterval(() => {
