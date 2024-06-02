@@ -1,0 +1,19 @@
+{
+  "name": "gesture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "breakdown": "node breakdown.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "asciify": "^1.3.5",
+    "asciify-image": "^0.1.10",
+    "colors": "^1.4.0",
+    "gif-frames": "^1.0.1"
+  }
+}
